@@ -9,41 +9,8 @@
       + npm install 
       + npm start
 
-3. CẤU TRÚC DỰ ÁN:
-hotel_final/
-├── node_modules/           # Chứa các modules của dự án
-├── public/
-│   ├── css/                # Chứa file bootstrap và css
-│   ├── js/                 # Chứa file js của website
-│   ├── img/                # Chứa ảnh của website
-│   ├── fonts/              # Thư mục icon
-│   └── uploads/            # Chứa ảnh được người dùng tải lên
-├── views/
-│   ├── admin/
-│   │   ├── partials/
-│   │   │   ├── header.ejs  # Header cho phép tận dụng code
-│   │   │   ├── footer.ejs  # Footer cho phép tận dụng code
-│   │   │   ├── msg-err.ejs # Gửi thông báo msg và err cho các trang web
-│   │   ├── function/       # Chứa các file xử lý chức năng của trang admin
-│   │   └── ...             # Chứa các file xử lý chức năng của trang admin
-│   ├── user/
-│   │   ├── partials/
-│   │   │   ├── header.ejs  # Header cho phép tận dụng code
-│   │   │   ├── footer.ejs  # Footer cho phép tận dụng code
-│   │   │   ├── msg-err.ejs # Gửi thông báo msg và err cho các trang web
-│   │   └── ...             # Chứa các file ejs của trang user
-├── routes/
-│   ├── adminRouter.js      # Chứa các đường dẫn của trang admin
-│   └── userRouter.js       # Chứa các đường dẫn của trang user
-├── controllers/
-│   ├── adminController.js  # Chứa các hàm xử lý chức năng của trang admin
-│   └── userController.js   # Chứa các hàm xử lý chức năng của trang user
-├── app.js                  # file chính để chạy được dự án
-├── package.json        
-├── package-lock.json
-├── hotel.sql               # Cơ sở dữ liệu của dự án        
-└── Readme.md
-
+3. Giới thiệu dự án
+	Trang web đặt phòng khách sạn, được xây dựng bởi ngôn ngữ Node.js, cung cấp giao diện thân thiện với người dùng để tìm kiếm, khám phá và đặt phòng khách sạn. Người dùng có thể nhập điểm đến, ngày nhận phòng/trả phòng và số lượng khách để nhanh chóng truy cập danh sách các khách sạn có sẵn. Trang web giới thiệu thông tin chi tiết về khách sạn, tiện nghi, giá cả và xếp hạng của người dùng. Node.js đảm bảo hiệu suất và khả năng phản hồi nhanh. Người dùng có thể hoàn tất đặt chỗ một cách an toàn, nhận email xác nhận và truy cập các tính năng như sửa đổi đặt chỗ và hỗ trợ khách hàng. Nhìn chung, trang web cung cấp trải nghiệm đặt phòng khách sạn liền mạch với các cập nhật theo thời gian thực và cách tiếp cận lấy người dùng làm trung tâm
 4. TÀI KHOẢN VÀ MẬT KHẨU ĐĂNG NHẬP VỚI TƯ CÁCH ADMIN:
   - Tài khoản: admin
   - Mật khâu: 123456
