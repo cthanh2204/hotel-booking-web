@@ -9,7 +9,7 @@
       + npm install 
       + npm start
 
-3. Giới thiệu dự án
+3. Giới thiệu dự án:
 	Trang web đặt phòng khách sạn, được xây dựng bởi ngôn ngữ Node.js, cung cấp giao diện thân thiện với người dùng để tìm kiếm, khám phá và đặt phòng khách sạn. Người dùng có thể nhập điểm đến, ngày nhận phòng/trả phòng và số lượng khách để nhanh chóng truy cập danh sách các khách sạn có sẵn. Trang web giới thiệu thông tin chi tiết về khách sạn, tiện nghi, giá cả và xếp hạng của người dùng. Node.js đảm bảo hiệu suất và khả năng phản hồi nhanh. Người dùng có thể hoàn tất đặt chỗ một cách an toàn, nhận email xác nhận và truy cập các tính năng như sửa đổi đặt chỗ và hỗ trợ khách hàng. Nhìn chung, trang web cung cấp trải nghiệm đặt phòng khách sạn liền mạch với các cập nhật theo thời gian thực và cách tiếp cận lấy người dùng làm trung tâm
 4. TÀI KHOẢN VÀ MẬT KHẨU ĐĂNG NHẬP VỚI TƯ CÁCH ADMIN:
   - Tài khoản: admin
